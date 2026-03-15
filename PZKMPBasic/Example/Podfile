@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PZKMPBasic_Tests' do
+  pod 'PZKMPBasic', :path => '../'
+  
+  
+end
