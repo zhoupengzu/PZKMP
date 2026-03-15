@@ -1,0 +1,1384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11EC02A66144A14440579CB450FE3901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		12EB4427C2CC3B4367E20611A0423B6E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C13909B4B3509DAAF39E032698DD6 /* ReplaceMe.swift */; };
+		15205118AFD1BD1138CB68DFFB10DD1E /* PZKMPHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF71AC3AE50FF088B1C89558305E2BE3 /* PZKMPHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26251E22AEC4E5D84B79C00B4512F37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		37237A75D5A2B98C7D42AA8A418588C5 /* PZKMPBasic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62FB9C7237F08D03718580AEAC38E145 /* PZKMPBasic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E78D0C06981350D0054BA4C4CECFA73 /* PZKMPBasic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B78B5AB44DEA41B5748BF4DF08FFD20D /* PZKMPBasic-dummy.m */; };
+		5C268E89772B86573B23AF84326E3A47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		6E4132865396D742DCD7FB6C93C70D87 /* Pods-PZKMPSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1763B4C197FB9C48CFB599B06A21FF /* Pods-PZKMPSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCAB3148E78873F5F0CFDCA4C788ED73 /* PZKMPHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD1D9184BCC5E8A8014AC07A5E77B5C /* PZKMPHome-dummy.m */; };
+		C1CED3140BC3968E648B68A36401CF51 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88708E13F82CEA21AF72F78105CE12C4 /* ReplaceMe.swift */; };
+		CA4E964686EEAD4773E8FDD59AE69B30 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A44EC1BB175C7E0A717B944DBE72DA /* ReplaceMe.swift */; };
+		CAA2254887D1FB33BB3B298AB847C1A0 /* PZKMPThird-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D139E8B693BC5911449538ACA13A48 /* PZKMPThird-dummy.m */; };
+		D561873FA008F5945042E431092D2477 /* PZKMPThird-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C33E13E749E9AD3A5FDC28CFCFEE03 /* PZKMPThird-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD677DB25C101F0D18263896CF24A9A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		EEB15ABEDE880340FA0759FE09E1F94B /* Pods-PZKMPSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 079E3584D65147883B669440F435230D /* Pods-PZKMPSwift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C7E93766D20EA7C94BEC1A6657E6BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFEF6E16436EF4A6F08221D456EE6BFF;
+			remoteInfo = "PZKMPBasic-PZKMPBasic";
+		};
+		238733AD77A96F0A3910F089C4979184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B55CB4DBAFB42E402CFACF737E1F4B1;
+			remoteInfo = PZKMPBasic;
+		};
+		3B0E54CEB460ED70A5C3805878C0AAE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F41BF26AAABFB1E53D5A5ACFEC0492F;
+			remoteInfo = PZKMPThird;
+		};
+		57AAD4543EF780A44AB9603687980C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA4EA98C70A031646CA253A9E50E253;
+			remoteInfo = "PZKMPHome-PZKMPHome";
+		};
+		5CA4D77D0D1503761E9C57B09D53C29D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F41BF26AAABFB1E53D5A5ACFEC0492F;
+			remoteInfo = PZKMPThird;
+		};
+		823EAECE35B21BEA5FAD36BDC23D6F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B55CB4DBAFB42E402CFACF737E1F4B1;
+			remoteInfo = PZKMPBasic;
+		};
+		9140D72056B548B77DD17E5809060BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 913DDED413981AB1BAA621205BAF7682;
+			remoteInfo = "PZKMPThird-PZKMPThird";
+		};
+		BC5AB62AAEC6E7E2CE5AB99414B060CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 589BAAB3027D9A02DA3ABEF8321BAB69;
+			remoteInfo = PZKMPHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AE378563DE730EF3772F9E56CD89DD /* PZKMPHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZKMPHome-prefix.pch"; sourceTree = "<group>"; };
+		06AF1AE45A70FBA765415ABE961E0367 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		079E3584D65147883B669440F435230D /* Pods-PZKMPSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PZKMPSwift-dummy.m"; sourceTree = "<group>"; };
+		10C3B843DFCBB6F87F7A9BB57BBB0C08 /* Pods-PZKMPSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PZKMPSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		1B96D5DC54D406AF607B5CB3609FFCAC /* ResourceBundle-PZKMPBasic-PZKMPBasic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PZKMPBasic-PZKMPBasic-Info.plist"; sourceTree = "<group>"; };
+		1C02D052994BA6810B90E2ED4C6C46BF /* PZKMPBasic-PZKMPBasic */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PZKMPBasic-PZKMPBasic"; path = PZKMPBasic.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BA37C3685DFAFD2EC95BD9CFAFF987 /* PZKMPThird */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PZKMPThird; path = PZKMPThird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE99F2119A64B51085E8B01357736BE /* ResourceBundle-PZKMPThird-PZKMPThird-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PZKMPThird-PZKMPThird-Info.plist"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		444A9215B55AA3BEB6F149BCE1E27910 /* Pods-PZKMPSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PZKMPSwift-resources.sh"; sourceTree = "<group>"; };
+		45858C726B1FFC107E7BA1E0B92BBC30 /* PZKMPBasic */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PZKMPBasic; path = PZKMPBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DFB60FD4C030C2FD50D7C0D45BFEC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		473377C7A5E97A6D9D2B1F737E2EA875 /* PZKMPThird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZKMPThird.debug.xcconfig; sourceTree = "<group>"; };
+		4A4550D78D4302BEA2469F9D698C2336 /* PZKMPThird.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PZKMPThird.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4FD28ADA2A954A297877EC355A159586 /* PZKMPHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PZKMPHome-Info.plist"; sourceTree = "<group>"; };
+		532C6F16D0A6752A6EB7877F59FEA3DA /* PZKMPHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PZKMPHome.modulemap; sourceTree = "<group>"; };
+		54CE80EA46C1F30AD3645B0C9E74316B /* PZKMPHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZKMPHome.release.xcconfig; sourceTree = "<group>"; };
+		56D139E8B693BC5911449538ACA13A48 /* PZKMPThird-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PZKMPThird-dummy.m"; sourceTree = "<group>"; };
+		5825AD802B9D41A3A2E432D2AC03E8DA /* Pods-PZKMPSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PZKMPSwift.release.xcconfig"; sourceTree = "<group>"; };
+		5B56BC11D5DA15C63D24C66F74217533 /* PZKMPBasic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PZKMPBasic.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62FB9C7237F08D03718580AEAC38E145 /* PZKMPBasic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZKMPBasic-umbrella.h"; sourceTree = "<group>"; };
+		68F6EF4D455EA99AB883F4BF7FDE1DD7 /* PZKMPBasic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZKMPBasic.release.xcconfig; sourceTree = "<group>"; };
+		6FD065F78953F785C61E7E61FD328C2A /* ResourceBundle-PZKMPHome-PZKMPHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PZKMPHome-PZKMPHome-Info.plist"; sourceTree = "<group>"; };
+		72A44EC1BB175C7E0A717B944DBE72DA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PZKMPHome/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		79747E91B49031B4DE254A30DF440E68 /* Pods-PZKMPSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PZKMPSwift.modulemap"; sourceTree = "<group>"; };
+		7AAAF89B1B1B609BF60A440F3AA08DF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C1978CB1E6DC832A6181C9D045EB6CA /* Pods-PZKMPSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PZKMPSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C91ADD4A7A33535C77B7EC1729D8DB5 /* PZKMPThird-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZKMPThird-prefix.pch"; sourceTree = "<group>"; };
+		7D0F7A481B80B61BA72FAD7A813CBD8A /* PZKMPThird-PZKMPThird */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PZKMPThird-PZKMPThird"; path = PZKMPThird.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF5E942A4F731B8186A69F708814FDD /* Pods-PZKMPSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PZKMPSwift"; path = Pods_PZKMPSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		858FB07383857BDFEB2BE837FB66A853 /* PZKMPThird.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PZKMPThird.modulemap; sourceTree = "<group>"; };
+		85E41D39063A0EDBBB26C8B3A21A2623 /* PZKMPBasic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZKMPBasic.debug.xcconfig; sourceTree = "<group>"; };
+		88708E13F82CEA21AF72F78105CE12C4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PZKMPBasic/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8CF12B7800AF3426B414C2EB2E0A3F53 /* PZKMPBasic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PZKMPBasic-Info.plist"; sourceTree = "<group>"; };
+		91C33E13E749E9AD3A5FDC28CFCFEE03 /* PZKMPThird-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZKMPThird-umbrella.h"; sourceTree = "<group>"; };
+		98D155E8176044687284022A3315CE30 /* Pods-PZKMPSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PZKMPSwift-Info.plist"; sourceTree = "<group>"; };
+		9A26FA63CE7E601BE23FA5DF2ADFA0D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D7CF34486316878CCD97430F04C88FE /* Pods-PZKMPSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PZKMPSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A271D5C41F69562B62A54EBE237D35C4 /* PZKMPBasic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PZKMPBasic.modulemap; sourceTree = "<group>"; };
+		A48C13909B4B3509DAAF39E032698DD6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PZKMPThird/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		AE5106CD93F158C241E8580EF2BB885E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B78B5AB44DEA41B5748BF4DF08FFD20D /* PZKMPBasic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PZKMPBasic-dummy.m"; sourceTree = "<group>"; };
+		BC1763B4C197FB9C48CFB599B06A21FF /* Pods-PZKMPSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PZKMPSwift-umbrella.h"; sourceTree = "<group>"; };
+		BF71AC3AE50FF088B1C89558305E2BE3 /* PZKMPHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZKMPHome-umbrella.h"; sourceTree = "<group>"; };
+		C72E0027B0D56649424480E17438CD9A /* PZKMPHome */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PZKMPHome; path = PZKMPHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CA4AC1506D9A98697C6005F2804F4F /* PZKMPHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZKMPHome.debug.xcconfig; sourceTree = "<group>"; };
+		D07AAD82F564BB5E3A148A2809A9D657 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DD046A1FBBE764208C33278FDACB21B8 /* PZKMPHome-PZKMPHome */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PZKMPHome-PZKMPHome"; path = PZKMPHome.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD1D9184BCC5E8A8014AC07A5E77B5C /* PZKMPHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PZKMPHome-dummy.m"; sourceTree = "<group>"; };
+		E5BC1DCF0AC42E1EB06D74072BEE6981 /* PZKMPThird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZKMPThird.release.xcconfig; sourceTree = "<group>"; };
+		E71681CCBB186F479F6D527C5A64DCD1 /* PZKMPBasic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZKMPBasic-prefix.pch"; sourceTree = "<group>"; };
+		EC132FA330C331F496A3E7B9333D7869 /* PZKMPThird-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PZKMPThird-Info.plist"; sourceTree = "<group>"; };
+		F49A496C65981DFE9189252CD939C6CA /* PZKMPHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PZKMPHome.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA81A78F55AF58D6426325DBA2995A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD677DB25C101F0D18263896CF24A9A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421B7BC6A94A7D5293E4AEB17D842987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639A9DE63A6E7E156289FA7DD0FC8D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C268E89772B86573B23AF84326E3A47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A85682E5C0E9A7B0165E532C07E4F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEED12D9F08777A71DE9821E90FFBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26251E22AEC4E5D84B79C00B4512F37C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E6B5337C3CA7EDCE1541A59DD30D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5882B4535C26B48B8D053E8753B395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EC02A66144A14440579CB450FE3901 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA1160A429631449E2039915354EEC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF5E942A4F731B8186A69F708814FDD /* Pods-PZKMPSwift */,
+				45858C726B1FFC107E7BA1E0B92BBC30 /* PZKMPBasic */,
+				1C02D052994BA6810B90E2ED4C6C46BF /* PZKMPBasic-PZKMPBasic */,
+				C72E0027B0D56649424480E17438CD9A /* PZKMPHome */,
+				DD046A1FBBE764208C33278FDACB21B8 /* PZKMPHome-PZKMPHome */,
+				23BA37C3685DFAFD2EC95BD9CFAFF987 /* PZKMPThird */,
+				7D0F7A481B80B61BA72FAD7A813CBD8A /* PZKMPThird-PZKMPThird */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204E875F96D5835A1D1AE6A66F541F73 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45DFB60FD4C030C2FD50D7C0D45BFEC9 /* LICENSE */,
+				F49A496C65981DFE9189252CD939C6CA /* PZKMPHome.podspec */,
+				7AAAF89B1B1B609BF60A440F3AA08DF8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		29FC8F10EC0BB9A99418EFBC4D676461 /* PZKMPBasic */ = {
+			isa = PBXGroup;
+			children = (
+				88708E13F82CEA21AF72F78105CE12C4 /* ReplaceMe.swift */,
+				D94B4E5BA38E76DE9EFFF946DE0A01F6 /* Pod */,
+				FB33F765FF433A6A9773687F3FC76122 /* Support Files */,
+			);
+			name = PZKMPBasic;
+			path = ../../PZKMPBasic;
+			sourceTree = "<group>";
+		};
+		368E8EC266320762E12469627F7D2279 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				06AF1AE45A70FBA765415ABE961E0367 /* LICENSE */,
+				4A4550D78D4302BEA2469F9D698C2336 /* PZKMPThird.podspec */,
+				AE5106CD93F158C241E8580EF2BB885E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4691E3D5F7F7D29BCAFC870D088C621E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				858FB07383857BDFEB2BE837FB66A853 /* PZKMPThird.modulemap */,
+				56D139E8B693BC5911449538ACA13A48 /* PZKMPThird-dummy.m */,
+				EC132FA330C331F496A3E7B9333D7869 /* PZKMPThird-Info.plist */,
+				7C91ADD4A7A33535C77B7EC1729D8DB5 /* PZKMPThird-prefix.pch */,
+				91C33E13E749E9AD3A5FDC28CFCFEE03 /* PZKMPThird-umbrella.h */,
+				473377C7A5E97A6D9D2B1F737E2EA875 /* PZKMPThird.debug.xcconfig */,
+				E5BC1DCF0AC42E1EB06D74072BEE6981 /* PZKMPThird.release.xcconfig */,
+				2CE99F2119A64B51085E8B01357736BE /* ResourceBundle-PZKMPThird-PZKMPThird-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../PZKMPSwift/Pods/Target Support Files/PZKMPThird";
+			sourceTree = "<group>";
+		};
+		4B05ADAD895D0283FE06FC886DDFA988 /* Pods-PZKMPSwift */ = {
+			isa = PBXGroup;
+			children = (
+				79747E91B49031B4DE254A30DF440E68 /* Pods-PZKMPSwift.modulemap */,
+				9D7CF34486316878CCD97430F04C88FE /* Pods-PZKMPSwift-acknowledgements.markdown */,
+				7C1978CB1E6DC832A6181C9D045EB6CA /* Pods-PZKMPSwift-acknowledgements.plist */,
+				079E3584D65147883B669440F435230D /* Pods-PZKMPSwift-dummy.m */,
+				98D155E8176044687284022A3315CE30 /* Pods-PZKMPSwift-Info.plist */,
+				444A9215B55AA3BEB6F149BCE1E27910 /* Pods-PZKMPSwift-resources.sh */,
+				BC1763B4C197FB9C48CFB599B06A21FF /* Pods-PZKMPSwift-umbrella.h */,
+				10C3B843DFCBB6F87F7A9BB57BBB0C08 /* Pods-PZKMPSwift.debug.xcconfig */,
+				5825AD802B9D41A3A2E432D2AC03E8DA /* Pods-PZKMPSwift.release.xcconfig */,
+			);
+			name = "Pods-PZKMPSwift";
+			path = "Target Support Files/Pods-PZKMPSwift";
+			sourceTree = "<group>";
+		};
+		5CA942AD342128FDE10EB308BACA1515 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29FC8F10EC0BB9A99418EFBC4D676461 /* PZKMPBasic */,
+				6D8C045936D9EA4B376528FBFF19183B /* PZKMPHome */,
+				F2346351E6040D3C4D71A722CF74782C /* PZKMPThird */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D8C045936D9EA4B376528FBFF19183B /* PZKMPHome */ = {
+			isa = PBXGroup;
+			children = (
+				72A44EC1BB175C7E0A717B944DBE72DA /* ReplaceMe.swift */,
+				204E875F96D5835A1D1AE6A66F541F73 /* Pod */,
+				F146F9E3368E4CD0459899D52A2D4DD9 /* Support Files */,
+			);
+			name = PZKMPHome;
+			path = ../../PZKMPHome;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5CA942AD342128FDE10EB308BACA1515 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0EA1160A429631449E2039915354EEC4 /* Products */,
+				F937F00015E596A6C96F9B1C609253FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94B4E5BA38E76DE9EFFF946DE0A01F6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9A26FA63CE7E601BE23FA5DF2ADFA0D9 /* LICENSE */,
+				5B56BC11D5DA15C63D24C66F74217533 /* PZKMPBasic.podspec */,
+				D07AAD82F564BB5E3A148A2809A9D657 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F146F9E3368E4CD0459899D52A2D4DD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				532C6F16D0A6752A6EB7877F59FEA3DA /* PZKMPHome.modulemap */,
+				DFD1D9184BCC5E8A8014AC07A5E77B5C /* PZKMPHome-dummy.m */,
+				4FD28ADA2A954A297877EC355A159586 /* PZKMPHome-Info.plist */,
+				05AE378563DE730EF3772F9E56CD89DD /* PZKMPHome-prefix.pch */,
+				BF71AC3AE50FF088B1C89558305E2BE3 /* PZKMPHome-umbrella.h */,
+				C7CA4AC1506D9A98697C6005F2804F4F /* PZKMPHome.debug.xcconfig */,
+				54CE80EA46C1F30AD3645B0C9E74316B /* PZKMPHome.release.xcconfig */,
+				6FD065F78953F785C61E7E61FD328C2A /* ResourceBundle-PZKMPHome-PZKMPHome-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../PZKMPSwift/Pods/Target Support Files/PZKMPHome";
+			sourceTree = "<group>";
+		};
+		F2346351E6040D3C4D71A722CF74782C /* PZKMPThird */ = {
+			isa = PBXGroup;
+			children = (
+				A48C13909B4B3509DAAF39E032698DD6 /* ReplaceMe.swift */,
+				368E8EC266320762E12469627F7D2279 /* Pod */,
+				4691E3D5F7F7D29BCAFC870D088C621E /* Support Files */,
+			);
+			name = PZKMPThird;
+			path = ../../PZKMPThird;
+			sourceTree = "<group>";
+		};
+		F937F00015E596A6C96F9B1C609253FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B05ADAD895D0283FE06FC886DDFA988 /* Pods-PZKMPSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB33F765FF433A6A9773687F3FC76122 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A271D5C41F69562B62A54EBE237D35C4 /* PZKMPBasic.modulemap */,
+				B78B5AB44DEA41B5748BF4DF08FFD20D /* PZKMPBasic-dummy.m */,
+				8CF12B7800AF3426B414C2EB2E0A3F53 /* PZKMPBasic-Info.plist */,
+				E71681CCBB186F479F6D527C5A64DCD1 /* PZKMPBasic-prefix.pch */,
+				62FB9C7237F08D03718580AEAC38E145 /* PZKMPBasic-umbrella.h */,
+				85E41D39063A0EDBBB26C8B3A21A2623 /* PZKMPBasic.debug.xcconfig */,
+				68F6EF4D455EA99AB883F4BF7FDE1DD7 /* PZKMPBasic.release.xcconfig */,
+				1B96D5DC54D406AF607B5CB3609FFCAC /* ResourceBundle-PZKMPBasic-PZKMPBasic-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../PZKMPSwift/Pods/Target Support Files/PZKMPBasic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C31F0170C255A2FC87C907B4F788058 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15205118AFD1BD1138CB68DFFB10DD1E /* PZKMPHome-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DDE458520FC5CA8A7F059266B9D3B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4132865396D742DCD7FB6C93C70D87 /* Pods-PZKMPSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE43FF81D1FC5A13BFCD05003BE20B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37237A75D5A2B98C7D42AA8A418588C5 /* PZKMPBasic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131AE66E162CBF9DC5B026D981742A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D561873FA008F5945042E431092D2477 /* PZKMPThird-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B55CB4DBAFB42E402CFACF737E1F4B1 /* PZKMPBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E184EFBFBFEB3AFBD9798A0F914C67F /* Build configuration list for PBXNativeTarget "PZKMPBasic" */;
+			buildPhases = (
+				EFE43FF81D1FC5A13BFCD05003BE20B7 /* Headers */,
+				5F84AB3A039DDB4E3AFB5F9B199A49A5 /* Sources */,
+				DC5882B4535C26B48B8D053E8753B395 /* Frameworks */,
+				0DA50E488E47729D98C84175B010E0B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF8BB2EAB64AF298BCC7BB5B3FD035E /* PBXTargetDependency */,
+				B9F7123F391297729B97FBF3A919BFD3 /* PBXTargetDependency */,
+			);
+			name = PZKMPBasic;
+			productName = PZKMPBasic;
+			productReference = 45858C726B1FFC107E7BA1E0B92BBC30 /* PZKMPBasic */;
+			productType = "com.apple.product-type.framework";
+		};
+		589BAAB3027D9A02DA3ABEF8321BAB69 /* PZKMPHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B24AF4F8578105E6F937F21CE17400D /* Build configuration list for PBXNativeTarget "PZKMPHome" */;
+			buildPhases = (
+				0C31F0170C255A2FC87C907B4F788058 /* Headers */,
+				16A641C0D57C184DCFA42B70730254E5 /* Sources */,
+				BAEED12D9F08777A71DE9821E90FFBCC /* Frameworks */,
+				D3C18CEB17FDA14AC1682512313BEFE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565EE8CAAC92DF6430F373ADEDFEE999 /* PBXTargetDependency */,
+				4D1A2D47133F32F4968E026EA132A8BD /* PBXTargetDependency */,
+			);
+			name = PZKMPHome;
+			productName = PZKMPHome;
+			productReference = C72E0027B0D56649424480E17438CD9A /* PZKMPHome */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F41BF26AAABFB1E53D5A5ACFEC0492F /* PZKMPThird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6523D2BE8BE2E3E98028630B12C6DC /* Build configuration list for PBXNativeTarget "PZKMPThird" */;
+			buildPhases = (
+				F131AE66E162CBF9DC5B026D981742A8 /* Headers */,
+				C2133A1E777A2FE676022F6FE2969E29 /* Sources */,
+				2FA81A78F55AF58D6426325DBA2995A5 /* Frameworks */,
+				402076229C31147470507C894FDFAC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B737AB06DCD7DE0520081611A7D8CC /* PBXTargetDependency */,
+			);
+			name = PZKMPThird;
+			productName = PZKMPThird;
+			productReference = 23BA37C3685DFAFD2EC95BD9CFAFF987 /* PZKMPThird */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DA4EA98C70A031646CA253A9E50E253 /* PZKMPHome-PZKMPHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF919013F580A74D1AF79A01028511F1 /* Build configuration list for PBXNativeTarget "PZKMPHome-PZKMPHome" */;
+			buildPhases = (
+				DB07587EBBFCD29F2C3209A22AD00808 /* Sources */,
+				7A85682E5C0E9A7B0165E532C07E4F0E /* Frameworks */,
+				1DA8C9CE0F72E4559F5309C0BF7CB597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PZKMPHome-PZKMPHome";
+			productName = PZKMPHome;
+			productReference = DD046A1FBBE764208C33278FDACB21B8 /* PZKMPHome-PZKMPHome */;
+			productType = "com.apple.product-type.bundle";
+		};
+		913DDED413981AB1BAA621205BAF7682 /* PZKMPThird-PZKMPThird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4664F1E07ED12AD900C2C178479ABC /* Build configuration list for PBXNativeTarget "PZKMPThird-PZKMPThird" */;
+			buildPhases = (
+				19A34193C2A66E0EF649CA32665804F5 /* Sources */,
+				C8E6B5337C3CA7EDCE1541A59DD30D16 /* Frameworks */,
+				3377B8DAC51BD22A4E36000865A244DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PZKMPThird-PZKMPThird";
+			productName = PZKMPThird;
+			productReference = 7D0F7A481B80B61BA72FAD7A813CBD8A /* PZKMPThird-PZKMPThird */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A837C3A7B7D8C3C3A37AA2E9FF8CB89F /* Pods-PZKMPSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4469D86846BF4A62F64E6B16D50F63 /* Build configuration list for PBXNativeTarget "Pods-PZKMPSwift" */;
+			buildPhases = (
+				56DDE458520FC5CA8A7F059266B9D3B3 /* Headers */,
+				767752F17373CB468DBCA77911BC5B1B /* Sources */,
+				639A9DE63A6E7E156289FA7DD0FC8D30 /* Frameworks */,
+				75A0ABE08753222AE3FECEAB25085925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F149E7DB0451C934020C2ED592A66F1B /* PBXTargetDependency */,
+				FEE36D259594DD986E047274803BA945 /* PBXTargetDependency */,
+				4A2479F48261643AC61D483825BC6234 /* PBXTargetDependency */,
+			);
+			name = "Pods-PZKMPSwift";
+			productName = Pods_PZKMPSwift;
+			productReference = 7DF5E942A4F731B8186A69F708814FDD /* Pods-PZKMPSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFEF6E16436EF4A6F08221D456EE6BFF /* PZKMPBasic-PZKMPBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3D4A706C477554D963FE78802B6352 /* Build configuration list for PBXNativeTarget "PZKMPBasic-PZKMPBasic" */;
+			buildPhases = (
+				EA62DB1FFB4A2048CA9DB3C36B9568B4 /* Sources */,
+				421B7BC6A94A7D5293E4AEB17D842987 /* Frameworks */,
+				3E66FE6094E5B571DC7CF1B49D4625E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PZKMPBasic-PZKMPBasic";
+			productName = PZKMPBasic;
+			productReference = 1C02D052994BA6810B90E2ED4C6C46BF /* PZKMPBasic-PZKMPBasic */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0EA1160A429631449E2039915354EEC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A837C3A7B7D8C3C3A37AA2E9FF8CB89F /* Pods-PZKMPSwift */,
+				1B55CB4DBAFB42E402CFACF737E1F4B1 /* PZKMPBasic */,
+				FFEF6E16436EF4A6F08221D456EE6BFF /* PZKMPBasic-PZKMPBasic */,
+				589BAAB3027D9A02DA3ABEF8321BAB69 /* PZKMPHome */,
+				8DA4EA98C70A031646CA253A9E50E253 /* PZKMPHome-PZKMPHome */,
+				6F41BF26AAABFB1E53D5A5ACFEC0492F /* PZKMPThird */,
+				913DDED413981AB1BAA621205BAF7682 /* PZKMPThird-PZKMPThird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA50E488E47729D98C84175B010E0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA8C9CE0F72E4559F5309C0BF7CB597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3377B8DAC51BD22A4E36000865A244DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E66FE6094E5B571DC7CF1B49D4625E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402076229C31147470507C894FDFAC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A0ABE08753222AE3FECEAB25085925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C18CEB17FDA14AC1682512313BEFE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A641C0D57C184DCFA42B70730254E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAB3148E78873F5F0CFDCA4C788ED73 /* PZKMPHome-dummy.m in Sources */,
+				CA4E964686EEAD4773E8FDD59AE69B30 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A34193C2A66E0EF649CA32665804F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F84AB3A039DDB4E3AFB5F9B199A49A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E78D0C06981350D0054BA4C4CECFA73 /* PZKMPBasic-dummy.m in Sources */,
+				C1CED3140BC3968E648B68A36401CF51 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767752F17373CB468DBCA77911BC5B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB15ABEDE880340FA0759FE09E1F94B /* Pods-PZKMPSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2133A1E777A2FE676022F6FE2969E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA2254887D1FB33BB3B298AB847C1A0 /* PZKMPThird-dummy.m in Sources */,
+				12EB4427C2CC3B4367E20611A0423B6E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB07587EBBFCD29F2C3209A22AD00808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA62DB1FFB4A2048CA9DB3C36B9568B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A2479F48261643AC61D483825BC6234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PZKMPThird;
+			target = 6F41BF26AAABFB1E53D5A5ACFEC0492F /* PZKMPThird */;
+			targetProxy = 5CA4D77D0D1503761E9C57B09D53C29D /* PBXContainerItemProxy */;
+		};
+		4D1A2D47133F32F4968E026EA132A8BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PZKMPHome-PZKMPHome";
+			target = 8DA4EA98C70A031646CA253A9E50E253 /* PZKMPHome-PZKMPHome */;
+			targetProxy = 57AAD4543EF780A44AB9603687980C36 /* PBXContainerItemProxy */;
+		};
+		565EE8CAAC92DF6430F373ADEDFEE999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PZKMPBasic;
+			target = 1B55CB4DBAFB42E402CFACF737E1F4B1 /* PZKMPBasic */;
+			targetProxy = 238733AD77A96F0A3910F089C4979184 /* PBXContainerItemProxy */;
+		};
+		B9F7123F391297729B97FBF3A919BFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PZKMPThird;
+			target = 6F41BF26AAABFB1E53D5A5ACFEC0492F /* PZKMPThird */;
+			targetProxy = 3B0E54CEB460ED70A5C3805878C0AAE0 /* PBXContainerItemProxy */;
+		};
+		C7B737AB06DCD7DE0520081611A7D8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PZKMPThird-PZKMPThird";
+			target = 913DDED413981AB1BAA621205BAF7682 /* PZKMPThird-PZKMPThird */;
+			targetProxy = 9140D72056B548B77DD17E5809060BA4 /* PBXContainerItemProxy */;
+		};
+		EBF8BB2EAB64AF298BCC7BB5B3FD035E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PZKMPBasic-PZKMPBasic";
+			target = FFEF6E16436EF4A6F08221D456EE6BFF /* PZKMPBasic-PZKMPBasic */;
+			targetProxy = 1C7E93766D20EA7C94BEC1A6657E6BB6 /* PBXContainerItemProxy */;
+		};
+		F149E7DB0451C934020C2ED592A66F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PZKMPBasic;
+			target = 1B55CB4DBAFB42E402CFACF737E1F4B1 /* PZKMPBasic */;
+			targetProxy = 823EAECE35B21BEA5FAD36BDC23D6F03 /* PBXContainerItemProxy */;
+		};
+		FEE36D259594DD986E047274803BA945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PZKMPHome;
+			target = 589BAAB3027D9A02DA3ABEF8321BAB69 /* PZKMPHome */;
+			targetProxy = BC5AB62AAEC6E7E2CE5AB99414B060CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07F63A76CF82951E418F5EE5FA5E56FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BC1DCF0AC42E1EB06D74072BEE6981 /* PZKMPThird.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PZKMPThird";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IBSC_MODULE = PZKMPThird;
+				INFOPLIST_FILE = "Target Support Files/PZKMPThird/ResourceBundle-PZKMPThird-PZKMPThird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PZKMPThird;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0B08A586B132D8F20D2FFBEF0C9EE17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BC1DCF0AC42E1EB06D74072BEE6981 /* PZKMPThird.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PZKMPThird/PZKMPThird-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/PZKMPThird/PZKMPThird-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/PZKMPThird/PZKMPThird.modulemap";
+				PRODUCT_MODULE_NAME = PZKMPThird;
+				PRODUCT_NAME = PZKMPThird;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		155888AF5A21AA9C8101ACE351875CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E41D39063A0EDBBB26C8B3A21A2623 /* PZKMPBasic.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PZKMPBasic/PZKMPBasic-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/PZKMPBasic/PZKMPBasic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/PZKMPBasic/PZKMPBasic.modulemap";
+				PRODUCT_MODULE_NAME = PZKMPBasic;
+				PRODUCT_NAME = PZKMPBasic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16CCF0D711867FBBBEA310A64239FE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CA4AC1506D9A98697C6005F2804F4F /* PZKMPHome.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PZKMPHome/PZKMPHome-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/PZKMPHome/PZKMPHome-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/PZKMPHome/PZKMPHome.modulemap";
+				PRODUCT_MODULE_NAME = PZKMPHome;
+				PRODUCT_NAME = PZKMPHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2893B4BFC23222598DF2A2973F1A3709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F6EF4D455EA99AB883F4BF7FDE1DD7 /* PZKMPBasic.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PZKMPBasic/PZKMPBasic-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/PZKMPBasic/PZKMPBasic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/PZKMPBasic/PZKMPBasic.modulemap";
+				PRODUCT_MODULE_NAME = PZKMPBasic;
+				PRODUCT_NAME = PZKMPBasic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E396B382FCC8BD00A9AE7032D2A00F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5825AD802B9D41A3A2E432D2AC03E8DA /* Pods-PZKMPSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PZKMPSwift/Pods-PZKMPSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PZKMPSwift/Pods-PZKMPSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		417B8D41133E160BBD1C7BDB7F503F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CA4AC1506D9A98697C6005F2804F4F /* PZKMPHome.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PZKMPHome";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IBSC_MODULE = PZKMPHome;
+				INFOPLIST_FILE = "Target Support Files/PZKMPHome/ResourceBundle-PZKMPHome-PZKMPHome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PZKMPHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6B4D701127FC6896E8FAD92CE36C9161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CE80EA46C1F30AD3645B0C9E74316B /* PZKMPHome.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PZKMPHome/PZKMPHome-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/PZKMPHome/PZKMPHome-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/PZKMPHome/PZKMPHome.modulemap";
+				PRODUCT_MODULE_NAME = PZKMPHome;
+				PRODUCT_NAME = PZKMPHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		925204A74E0C4CCA43ED83C4D9A3E85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473377C7A5E97A6D9D2B1F737E2EA875 /* PZKMPThird.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/PZKMPThird/PZKMPThird-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/PZKMPThird/PZKMPThird-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/PZKMPThird/PZKMPThird.modulemap";
+				PRODUCT_MODULE_NAME = PZKMPThird;
+				PRODUCT_NAME = PZKMPThird;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A291A7FA9F53C3DCE870FA6701C7E13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F6EF4D455EA99AB883F4BF7FDE1DD7 /* PZKMPBasic.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PZKMPBasic";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IBSC_MODULE = PZKMPBasic;
+				INFOPLIST_FILE = "Target Support Files/PZKMPBasic/ResourceBundle-PZKMPBasic-PZKMPBasic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PZKMPBasic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B28FCC2E40D28A4BCD687A19AA7B40AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C3B843DFCBB6F87F7A9BB57BBB0C08 /* Pods-PZKMPSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-PZKMPSwift/Pods-PZKMPSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PZKMPSwift/Pods-PZKMPSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5FF753E98150C6FD360245E73367B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CE80EA46C1F30AD3645B0C9E74316B /* PZKMPHome.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PZKMPHome";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IBSC_MODULE = PZKMPHome;
+				INFOPLIST_FILE = "Target Support Files/PZKMPHome/ResourceBundle-PZKMPHome-PZKMPHome-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PZKMPHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DEF986A61C80C1A8BB90E3291D0817DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473377C7A5E97A6D9D2B1F737E2EA875 /* PZKMPThird.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PZKMPThird";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IBSC_MODULE = PZKMPThird;
+				INFOPLIST_FILE = "Target Support Files/PZKMPThird/ResourceBundle-PZKMPThird-PZKMPThird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PZKMPThird;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E90008F86764FBE2D287C0D7E9EBC750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E41D39063A0EDBBB26C8B3A21A2623 /* PZKMPBasic.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PZKMPBasic";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IBSC_MODULE = PZKMPBasic;
+				INFOPLIST_FILE = "Target Support Files/PZKMPBasic/ResourceBundle-PZKMPBasic-PZKMPBasic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PZKMPBasic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B24AF4F8578105E6F937F21CE17400D /* Build configuration list for PBXNativeTarget "PZKMPHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CCF0D711867FBBBEA310A64239FE51 /* Debug */,
+				6B4D701127FC6896E8FAD92CE36C9161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E184EFBFBFEB3AFBD9798A0F914C67F /* Build configuration list for PBXNativeTarget "PZKMPBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155888AF5A21AA9C8101ACE351875CF5 /* Debug */,
+				2893B4BFC23222598DF2A2973F1A3709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4469D86846BF4A62F64E6B16D50F63 /* Build configuration list for PBXNativeTarget "Pods-PZKMPSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28FCC2E40D28A4BCD687A19AA7B40AB /* Debug */,
+				3E396B382FCC8BD00A9AE7032D2A00F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4664F1E07ED12AD900C2C178479ABC /* Build configuration list for PBXNativeTarget "PZKMPThird-PZKMPThird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF986A61C80C1A8BB90E3291D0817DF /* Debug */,
+				07F63A76CF82951E418F5EE5FA5E56FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3D4A706C477554D963FE78802B6352 /* Build configuration list for PBXNativeTarget "PZKMPBasic-PZKMPBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90008F86764FBE2D287C0D7E9EBC750 /* Debug */,
+				A291A7FA9F53C3DCE870FA6701C7E13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF919013F580A74D1AF79A01028511F1 /* Build configuration list for PBXNativeTarget "PZKMPHome-PZKMPHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417B8D41133E160BBD1C7BDB7F503F03 /* Debug */,
+				B5FF753E98150C6FD360245E73367B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6523D2BE8BE2E3E98028630B12C6DC /* Build configuration list for PBXNativeTarget "PZKMPThird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925204A74E0C4CCA43ED83C4D9A3E85C /* Debug */,
+				0B08A586B132D8F20D2FFBEF0C9EE17A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

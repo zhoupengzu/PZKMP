@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PZKMPSwift/Pods-PZKMPSwift-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/PZKMPBasic/PZKMPBasic.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/PZKMPHome/PZKMPHome.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/PZKMPThird/PZKMPThird.bundle

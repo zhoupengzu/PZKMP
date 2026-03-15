@@ -1,0 +1,28 @@
+PODS:
+  - PZKMPBasic (0.1.0):
+    - PZKMPThird
+  - PZKMPHome (0.1.0):
+    - PZKMPBasic
+  - PZKMPThird (0.1.0)
+
+DEPENDENCIES:
+  - PZKMPBasic (from `../PZKMPBasic`)
+  - PZKMPHome (from `../PZKMPHome`)
+  - PZKMPThird (from `../PZKMPThird`)
+
+EXTERNAL SOURCES:
+  PZKMPBasic:
+    :path: "../PZKMPBasic"
+  PZKMPHome:
+    :path: "../PZKMPHome"
+  PZKMPThird:
+    :path: "../PZKMPThird"
+
+SPEC CHECKSUMS:
+  PZKMPBasic: e8714d37288a1fc87d1960d9e2f28785929e441d
+  PZKMPHome: 53a288554b5080f2a66b2248b7036eddaa81d43d
+  PZKMPThird: a298918d46594c3920c0f488874c68780069f009
+
+PODFILE CHECKSUM: 61d1022492274c4519a375444abff8d6308888df
+
+COCOAPODS: 1.16.2

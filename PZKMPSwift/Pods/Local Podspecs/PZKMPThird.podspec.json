@@ -1,0 +1,32 @@
+{
+  "name": "PZKMPThird",
+  "version": "0.1.0",
+  "summary": "A short description of PZKMPThird.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PZKMPThird/PZKMPThird",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PZKMPThird": "zhoupengzu@163.com"
+  },
+  "source": {
+    "git": "https://github.com/PZKMPThird/PZKMPThird.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "source_files": "PZKMPThird/Classes/**/*.{swift,h,m}",
+  "resource_bundles": {
+    "PZKMPThird": [
+      "PZKMPThird/Assets/*.png"
+    ]
+  },
+  "swift_version": "5.0"
+}

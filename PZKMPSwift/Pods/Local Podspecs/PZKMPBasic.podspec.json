@@ -1,0 +1,35 @@
+{
+  "name": "PZKMPBasic",
+  "version": "0.1.0",
+  "summary": "A short description of PZKMPBasic.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PZKMPBasic/PZKMPBasic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PZKMPBasic": "zhoupengzu@163.com"
+  },
+  "source": {
+    "git": "https://github.com/PZKMPBasic/PZKMPBasic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "source_files": "PZKMPBasic/Classes/**/*.{swift,h,m}",
+  "resource_bundles": {
+    "PZKMPBasic": [
+      "PZKMPBasic/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "PZKMPThird": []
+  },
+  "swift_version": "5.0"
+}

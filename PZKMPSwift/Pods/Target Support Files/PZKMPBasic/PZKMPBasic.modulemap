@@ -1,0 +1,6 @@
+framework module PZKMPBasic {
+  umbrella header "PZKMPBasic-umbrella.h"
+
+  export *
+  module * { export * }
+}

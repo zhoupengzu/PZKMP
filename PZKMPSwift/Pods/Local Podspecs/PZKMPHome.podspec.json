@@ -1,0 +1,35 @@
+{
+  "name": "PZKMPHome",
+  "version": "0.1.0",
+  "summary": "A short description of PZKMPHome.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PZKMPHome/PZKMPHome",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PZKMPHome": "zhoupengzu@163.com"
+  },
+  "source": {
+    "git": "https://github.com/PZKMPHome/PZKMPHome.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "source_files": "PZKMPHome/Classes/**/*.{swift,h,m}",
+  "resource_bundles": {
+    "PZKMPHome": [
+      "PZKMPHome/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "PZKMPBasic": []
+  },
+  "swift_version": "5.0"
+}
