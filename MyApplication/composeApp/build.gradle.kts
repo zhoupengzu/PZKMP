@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    kotlin("native.cocoapods")
 }
 
 kotlin {
@@ -15,13 +16,28 @@ kotlin {
         }
     }
     
-    listOf(
-        iosArm64(),
-        iosSimulatorArm64()
-    ).forEach { iosTarget ->
-        iosTarget.binaries.framework {
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
+
+    cocoapods {
+        summary = "Compose Multiplatform Application Module"
+        homepage = "https://github.com/JetBrains/compose-multiplatform"
+        version = "1.0.0"
+        ios.deploymentTarget = "13.0"
+        podfile = project.file("../iosApp/PZKMPSwift/Podfile")
+        framework {
             baseName = "ComposeApp"
             isStatic = true
+        }
+        pod("PZKMPHome") {
+            source = path(project.file("../iosApp/PZKMPHome"))
+        }
+        pod("PZKMPBasic") {
+            source = path(project.file("../iosApp/PZKMPBasic"))
+        }
+        pod("PZKMPThird") {
+            source = path(project.file("../iosApp/PZKMPThird"))
         }
     }
     
@@ -76,4 +92,3 @@ android {
 dependencies {
     debugImplementation(libs.compose.uiTooling)
 }
-
